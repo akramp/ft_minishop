@@ -1,0 +1,222 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(./img/food2.jpg);
+	background-repeat: no-repeat;;
+	text-align: center;
+	background-position: center;
+}
+
+nav > ul {
+	float: left;
+	position: fixed;
+	width: 350px;
+	height: 500px;
+	margin-top: 10;
+	background: #e6e6e6;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-shadow: rgba(255, 255, 255, 0.8) 0 1px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+}
+
+#lol {
+	float: left;
+	width: 350px;
+	height: 500px;
+	margin-top: 10;
+	background: #e6e6e6;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-shadow: rgba(255, 255, 255, 0.8) 0 1px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+}
+
+.container {
+	width: 1100px;
+	margin: auto;
+	background: #8ecc17;
+	border: 5px solid rgba(0, 0, 0, 0.1);
+	text-shadow: rgba(255, 255, 255, 0.8) 0 1px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+}
+
+h1 {
+}
+
+h1.site_title {
+	font-style: italic;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ul.display_shop {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul.display_shop > li > a{
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+ul.display_shop > li > a > .name {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	padding: 1em;
+	color: white;
+	background: rgba(0,0,0,.5);
+}
+
+ul.display_shop > li > a > .price {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+ul.cart ul {
+	margin: 0 1em 1em 1em;
+	padding: 3px;
+}
+
+ul.cart ul > li {
+	background: white;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+ul.cart ul > li span.quantity {
+	background: red;
+	padding: 0 3px;
+	margin-right: 5px;
+	font-family: "Open Sans Bold";
+	color: white;
+	background: rgba(0, 0, 0, 0.6);
+	text-shadow: none;
+}
+
+ul.cart ul > li a {
+	margin-left: auto;
+	margin-right: 5px;
+	color: #b45858;
+}
+
+ul.cart ul > li a:hover {
+	text-decoration: none;
+}
+
+article {
+  position: absolute;
+}
+
+.article .desc {
+	margin-left: 400px;
+	margin-right: 500px;
+}
+
+.article .price {
+  position: absolute;
+  top: 750px;
+  right: 360px;
+  font-family: "Open Sans Bold";
+  font-size: 36px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 130px;
+  background: rgba(255,255,255,.6);
+  border: 2px solid #505050;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.article > img {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.lol {
+	background-color: #8ecc17;
+}
+
+.but1{
+	text-align: center;
+}
+
+.login{
+	border: groove;
+	text-align: right;
+	border-color: black;
+	border-width: 5px;
+	margin-left: 80%;
+	height: 200px;
+	width: 200px;
+	margin-top: -55px;
+}
+
+.link {
+	 display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: black;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    margin-left: 47%;
+    text-decoration: none;
+}
+
+.auteur{
+	text-align: right;
+}
+
+.desc{
+	color: white;
+	text-align: left;
+	background-color: rgba(55,55,55, 0.6);
+}
+
+.menu {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background-color: #505050;
+}
+
+.menu > li {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 40px;
+}
+
+.menu > li :hover {
+	background-color: #303030;
+}
+
+.menu > li > a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
